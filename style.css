@@ -709,6 +709,10 @@ a{
     justify-content: flex-start;
 }
 
+#showMoreLink{
+    display: none;
+}
+
 /* -------------------media query for small screen------------------------ */
 @media only screen and (max-width: 900px){
     .search-box{
@@ -753,7 +757,8 @@ a{
     .profile-main, .profile-sidebar{
         flex-basis: 100%;
     }
-    .profile-container{
+    .profile-container,
+    .create-post-links{
         font-size: 14px;
     }
     .profile-pic{
